@@ -1,7 +1,7 @@
 package Articoli;
 
 import java.util.Scanner;
-
+//MODIFICA DI PROVA 17:37 18/06/2019 by pxel
 public class Main {
 	
 	private static ReadFile obj1 = new ReadFile();
