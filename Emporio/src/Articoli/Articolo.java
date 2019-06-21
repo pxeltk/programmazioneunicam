@@ -3,8 +3,8 @@ package Articoli;
 public class Articolo {
 	
 	private char reparto;
-	private char unit‡Misura;
-	private double quantit‡;
+	private char unitaMisura;
+	private double quantita;
 	private double prezzo;
 	private String codice;
 	private String nome;
@@ -19,8 +19,8 @@ public class Articolo {
 	Articolo (char rep, char mis, double q, double p, String cod, String nome, String des) {
 		
 		reparto = rep;
-		unit‡Misura = mis;
-		quantit‡ = q; 
+		unitaMisura = mis;
+		quantita = q; 
 		prezzo = p;
 		codice = cod;
 		this.nome = nome;
@@ -30,9 +30,9 @@ public class Articolo {
 
 	char getReparto() {return reparto;}
 	
-	char getUnit‡Misura() {return unit‡Misura;}
+	char getUnitaMisura() {return unitaMisura;}
 	
-	double getQuantit‡() {return quantit‡;}
+	double getQuantita() {return quantita;}
 	
 	double getPrezzo() {return prezzo;}
 	
@@ -44,7 +44,7 @@ public class Articolo {
 	
 	void stampArticolo () {
 		
-		System.out.println("Reparto: "+reparto+"\nVenduto a: "+unit‡Misura+"\nQuantit‡: "+quantit‡+
+		System.out.println("Reparto: "+reparto+"\nVenduto a: "+unitaMisura+"\nQuantita: "+quantita+
 				"\nPrezzo: "+prezzo+"Ä\nCodice univoco: "+codice+"\nArticolo: "+nome+
 				"\nDescrizione: "+descrizione+"\n");
 		    	

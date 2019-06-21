@@ -2,7 +2,7 @@ package Articoli;
 
 public enum consoleEnum {
 		
-	    a("Menù"), b("Catalogo"), c("Prodotti totali"), d("Valore totale"),
+	    a("Menu"), b("Catalogo"), c("Prodotti totali"), d("Valore totale"),
 	    e("Ricerca per codice univoco"), f("Inserimento prodotto"), g("Vendita prodotto"),
 	    h("Esci");
 
